@@ -12,9 +12,16 @@ fun main (args:Array<String>){
     var nameOfMine : String = "Mahad Said"
     var Temperature : Float = 30.6668896f
 
+//TYPE CONVERSION
+    var thiNumbeer : Int = 7
+    var hiiNumber : Double = 5.432
+
+//    thiNumber = hiiNumbeer  converting this to string Interger decimal.Int()
 
 
+    thiNumbeer = hiiNumber.toInt()
 
     println("Hello World Kotlin")
-    println(numbeer)
+    println(hiiNumber)
+    println(thiNumbeer)
 }
