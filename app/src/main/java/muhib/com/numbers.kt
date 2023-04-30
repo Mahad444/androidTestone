@@ -38,6 +38,8 @@ fun  main(){
     val stringL : String = "Hello my Name is $stringF"
 
     println(stringL)
+    var maia = 5
+    println("the answer is $maia")
 
 
 
