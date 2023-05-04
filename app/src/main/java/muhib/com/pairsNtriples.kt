@@ -24,4 +24,5 @@ fun main (){
     println("the first one is ${wayab2.third}")
 
 
+
 }
