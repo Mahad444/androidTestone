@@ -1,6 +1,6 @@
 package muhib.com
 
-import kotlin.math.PI
+//import kotlin.math.PI
 
 abstract class Shape(open val width: Double) {
     abstract fun area(): Double
@@ -14,7 +14,7 @@ class Square(override val width: Double) : Shape(width) {
 
 class Circle(override val width: Double) : Shape(width) {
     override fun area(): Double {
-        return PI * width * width
+        return 3.142 * width * width
     }
 }
 
