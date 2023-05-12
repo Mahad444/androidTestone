@@ -1,6 +1,4 @@
-package muhib.com
-
-abstract  class human {
-
-
+fun main (){
+    println("learning kotlin")
 }
+
