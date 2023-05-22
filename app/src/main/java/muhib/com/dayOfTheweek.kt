@@ -21,11 +21,11 @@ fun fishFood (day:String):String{
     var food =""
     when(day) {
         "Monday"-> "flakes"
-//        "Tuesday"-> food ="pelletes"
+        "Tuesday"-> food ="pelletes"
         "Wednesday" ->  "redworms"
         "Thursday" ->  "granules"
         "Friday" ->  "mosqutoes"
-//        "Saturday" -> food = "lettuce"
+        "Saturday" -> food = "lettuce"
         "Sunday" ->  "plankton"
         else -> "nothing"
     }
