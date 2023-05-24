@@ -15,5 +15,6 @@ fun main () {
     student1.marks = 80
     student1.printMarks()
 
-
+ val stude = Student(nameOfTheClass = "8P" , name="Kamal" , marks = 87)
+    stude.printMarks()
 }

@@ -11,6 +11,11 @@ class Student (var name:String = "", var marks:Int = 0){
     }
 
 
+    constructor(nameOfTheClass: String,name: String,marks: Int):this(name,marks){
+        this.nameOfTheClass = nameOfTheClass
+    }
+
+
     init {
 //        println("Init Block Student class $name class $nameOfTheClass and $ marks")
     }
