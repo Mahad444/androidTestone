@@ -1,19 +1,15 @@
 package mahad.example
 
 class Student (var name:String = "", var marks:Int = 0){
-//    var name : String = name
-//    var marks = marks
+    var parcentage
+//    GETTERS AND SETTERS
+    get()  =  (marks *100 )/80
 
-    var nameOfTheClass : String = ""
-
-    constructor(nameOfTheClass: String):this(){
-        this.nameOfTheClass = nameOfTheClass
-    }
+        set(value) {
+            marks = value * 3
+        }
 
 
-    constructor(nameOfTheClass: String,name: String,marks: Int):this(name,marks){
-        this.nameOfTheClass = nameOfTheClass
-    }
 
 
     init {
@@ -27,6 +23,9 @@ class Student (var name:String = "", var marks:Int = 0){
 
 //    Methods
     fun printMarks(){
-    println("Student $name has archieved $marks marks in the exam and he is in class $nameOfTheClass")
+    println("Student $name has archieved $marks marks in the exam and he is in class")
+    }
+    fun prinPercentage () {
+        println("Student $name has archived $parcentage% in general")
     }
 }
