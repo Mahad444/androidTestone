@@ -2,10 +2,10 @@ package mahad.example
 
 fun main () {
 
-    val student = Student()
+    val student = Student(marks = 99,name ="Wayab") // this marks specifies the argument if no order is followed
 
-    student.name = "Mahad Said"
-    student.marks = 67
+    var studee = Student(nameOfTheClass = "7F")
+    studee.printMarks()
 
     student.printMarks()
 
