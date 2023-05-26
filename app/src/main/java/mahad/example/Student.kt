@@ -3,10 +3,10 @@ package mahad.example
 class Student (var name:String = "", var marks:Int = 0){
     var parcentage
 //    GETTERS AND SETTERS
-    get()  =  (marks *100 )/80
+    get()  =  (marks *100 )/100
 
         set(value) {
-            marks = value * 3
+            marks = value * 2
         }
 
 

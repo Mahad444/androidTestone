@@ -8,7 +8,7 @@ fun main () {
 //    studee.printMarks()
 
     student.printMarks()
-    student.parcentage =7
+    student.parcentage =70
     student.prinPercentage()
 
     val student1 = Student()
